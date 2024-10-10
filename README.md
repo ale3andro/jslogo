@@ -1,6 +1,18 @@
 Logo Interpreter in JavaScript
 ==============================
 
+Όπως φαίνεται και παραπάνω, το repository αυτό έχει γίνει fork από το εξαιρετικό [jslogo](https://github.com/bztsrc/jslogo).
+Το μόνο που έχω κάνει, είναι να προσθέσω Ελληνική μετάφραση. Είναι μια εξαιρετική εναλλακτική για το αρχαίο πλεόν Easy Logo που εκτός των άλλων δυσλειτουργεί σε Linux (χρειάζεται wine για να λειτουργήσει)
+
+Χρήση
+===============================
+
+Άνοιξε το αρχείο index.hmtl?lang=el
+
+Το ?lang=el είναι απαραίτητο για να ενεργοποιηθεί η Ελληνική Μετάφραση. 
+
+
+
 My kids growing up fast. My older boy went to school this year, so I was thinking it's time to influence him with programming.
 Therefore I quickly put together this visual Logo Interpreter for his birthday. It was a 2 days project, only tested with Firefox and Chrome.
 Icons from Google Images, I do not own them. It comes without any warranty in the hope that it will be useful for other kids too.
