@@ -7,10 +7,13 @@ Logo Interpreter in JavaScript
 Χρήση
 ===============================
 
-Άνοιξε το αρχείο index.hmtl?lang=el
+Άνοιξε το αρχείο **index.hmtl?lang=el**
 
-Το ?lang=el είναι απαραίτητο για να ενεργοποιηθεί η Ελληνική Μετάφραση. 
+Το **?lang=el** είναι απαραίτητο για να ενεργοποιηθεί η Ελληνική Μετάφραση. 
 
+
+Ακολουθεί το original README
+================================
 
 
 My kids growing up fast. My older boy went to school this year, so I was thinking it's time to influence him with programming.
