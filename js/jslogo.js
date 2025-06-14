@@ -139,6 +139,7 @@ pe.jslogo = {
 		var cvs=document.getElementById('deg'),ctx;
 		if(cvs==null) return;
 		var obj=cvs.previousSibling.previousSibling.previousSibling;
+		//console.log(obj.value);
 		var r=Math.round(obj.value);
 		cvs.width=180;cvs.height=180;ctx=cvs.getContext('2d');ctx.scale(1,1); ctx.clearRect(0,0,180,180);
 		ctx.beginPath(); ctx.strokeStyle='#000000';ctx.lineWidth=1;ctx.arc(90,90,89,0,2*Math.PI,false); ctx.stroke();
