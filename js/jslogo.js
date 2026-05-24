@@ -1,8 +1,22 @@
 var pe={},LANG={};
-if(location.href.substr(-2)=="hu") LANG={"Happy birthday":"Boldog szülinapot","Name?":"Neve?","Bad name!":"Hibás név!","Already exists!":"Már van ilyen!","Setup":"Beállítások","Start!":"Start!","Load":"Betölt","Save":"Lement","Reset":"Újrakezd","Tutorials":"Példák",'forward':"Előre",'backward':"Hátra",'left':"Balra fordul",'right':"Jobbra fordul",'pendown':"Farkinca le",'penup':"Farkinca fel",'color':"Szín",'text':"Szöveg",'let':"Értékadás",'call':"Eljárás hívás",'if':"Elágazás",'repeat':"Ismétlés",'question':"Kérdés",'rand':"Véletlen",'alert':"Figyelmeztetés",'debug':"Hibakeresés","Add function":"Új eljárás","Delete function":"Eljárás törlése","Are you sure?":"Biztos vagy benne?","Variable":"Doboz","Prompt":"Kérdés","Expression":"Érték","pixels":"képpont","Default":"Alapért","Draw turtle":"Mutasd a teknőst","Debug execution":"Mutasd az utasításokat","Depth?":"Szintek száma?","How old are you?":"Hány éves vagy?","snowflake":"hópehely","wandering":"bóklászó","plant":"virág","curly":"íves","triangle":"háromszög","bdaycake":"torta","Empty expression":"Üres kifejezés","No such variable":"Nincs ilyen változó","Missing expression":"Hiányzó kifejezés","Unknown keyword":"Ismeretlen kulcsszó","Missing argument":"Hiányzó paraméter","Bad variable":"Hibás változónév","Unknown function":"Ismeretlen eljárás","Arguments mismatch":"Eltérő paraméterszám","Unknown command":"Ismeretlen parancs"};
-if(location.href.substr(-2)=="de") LANG={"Happy birthday":"Alles Gute zum Geburtstag","Name?":"Name?","Bad name!":"Schlechter Name!","Already exists!":"Ist bereits vorhanden!","Setup":"Konfiguration","Start!":"Anfang!","Load":"Einladen","Save":"Ersparen","Reset":"Neu setzen","Tutorials":"Lernprogrammen","forward":"vorantreiben","backward":"zurück","left":"links","right":"rechts","pendown":"hinlegen","penup":"hochheben","color":"kolorieren","text":"schreiben","let":"angeben","call":"erfolgen","if":"ob","repeat":"repetieren","question":"fragen","rand":"würfeln","alert":"warnen","debug":"debuggen","Add function":"Neue Funktion","Delete function":"Lösche Funktion","Are you sure?":"Bist du sicher?","Variable":"Variable","Prompt":"Prompt","Expression":"Ausdruck","pixels":"Pixel","Default":"Default","Draw turtle":"Schildkröte anzeigen","Debug execution":"Ablaufverfolgung ausführen","Depth?":"Tiefe?","How old are you?":"Wie alt bist du?","snowflake":"Schneeflocke","wandering":"wandern","plant":"Pflanze","curly":"lockig","triangle":"Dreieck","bdaycake":"Gtagskuchen","Empty expression":"Leerer Ausdruck","No such variable":"Keine solche Variable","Missing expression":"Fehlender Ausdruck","Unknown keyword":"Unbekanntes Schlüsselwort","Missing argument":"Fehlendes Argument","Bad variable":"Schlechte Variable","Unknown function":"Unbekannte Funktion","Arguments mismatch":"Argumente stimmel nicht","Unknown command":"Unbekannter Befehl"};
-if(location.href.substr(-2)=="fr") LANG={"Happy birthday":"Bon anniversaire","Name?":"Prénom?","Bad name!":"Mauvais nom!","Already exists!":"Existe déjá!","Setup":"Configuration","Start!":"Début!","Load":"Charge","Save":"Enregistrer","Reset":"Réinitialiser","Tutorials":"Tutoriels","forward":"envoyer","backward":"arriéré","left":"gauche","right":"droite","pendown":"soulever","penup":"relever","color":"colorizer","text":"écrire","let":"attributer","call":"invoquer","if":"si","repeat":"répéter","question":"question","rand":"randomiser","alert":"alerte","debug":"déboguer","Add function":"Ajouter une fonction","Delete function":"Supprimer la fonction","Are you sure?":"Étes-vous sűr?","Variable":"Variable","Prompt":"Sujet","Expression":"Expression","pixels":"pixels","Default":"Défaut","Draw turtle":"Montrer la tortue","Debug execution":"Suivre l'exécution","Depth?":"Profondeur?","How old are you?":"Quel áge avez-vous?","snowflake":"neige","wandering":"errant","plant":"plante","curly":"bouclé","triangle":"triangle","bdaycake":"gáteau","Empty expression":"Expression vide","No such variable":"Pas une telle variable","Missing expression":"Expression manquante","Unknown keyword":"Mot-clé inconnu","Missing argument":"Argument manquant","Bad variable":"Mauvaise variable","Unknown function":"Fonction inconnue","Arguments mismatch":"Incompatibilité des arguments","Unknown command":"Commande inconnnue"};
-if(location.href.substr(-2)=="el") LANG={"Happy birthday":"Χρόνια Πολλά","Name?":"Όνομα?","Bad name!":"Λάθος όνομα!","Already exists!":"Το όνομα υπάρχει ήδη!","Setup":"Ρύθμιση","Start!":"Εκκίνηση!","Load":"Άνοιγμα","Save":"Αποθήκευση","Reset":"Επαναφορά","Tutorials":"Παραδείγματα","forward":"μπροστά","backward":"πίσω","left":"αριστερά","right":"δεξιά","pendown":"πένα κάτω","penup":"πένα πάνω","color":"χρώμα","text":"κείμενο","let":"όρισε","call":"κλήση","if":"αν","repeat":"επανάληψη","question":"ερώτηση","rand":"τυχαίο","alert":"ειδοποίηση","debug":"αποσφαλμάτωση","Add function":"προσθήκη συνάρτησης","Delete function":"διαγραφή συνάρτησης","Are you sure?":"Είσαι σίγουρος?","Variable":"μεταβλητή","Prompt":"Κείμενο ερώτησης","Expression":"έκφραση","pixels":"πίξελς","Default":"προεπιλεγμένο","Draw turtle":"εμφάνιση χελώνας","Debug execution":"αποσφαλμάτωση εκτέλεσης","Depth?":"βάθος?","How old are you?":"πόσο χρονών είσαι?","snowflake":"χιονονιφάδα","wandering":"τυχαίο","plant":"φυτό","curly":"κατσαρό","triangle":"τρίγωνο","bdaycake":"τούρτα γενεθλίων","Empty expression":"κενή έκφραση","No such variable":"δεν βρέθηκε η μεταβλητή","Missing expression":"κενή έκφραση","Unknown keyword":"λείπει η λέξη κλειδί","Missing argument":"λείπει το όρισμα","Bad variable":"λάθος μεταβλητή","Unknown function":"άνγωστη συνάρτηση","Arguments mismatch":"ασύμβατες οδηγίες","Unknown command":"άγνωση εντολή"};
+// gemini start
+
+// Create a helper to easily read URL parameters
+var urlParams = new URLSearchParams(window.location.search);
+var currentLang = urlParams.get('lang') || location.href.substr(-2); 
+// Note: This checks for ?lang=hu, and falls back to the old method if not found.
+
+if (currentLang !== "hu" && currentLang !== "de" && currentLang !== "fr" && currentLang !== "el") {
+    currentLang = "el"; // 👈 Forces Greek as the absolute default
+}
+
+if(currentLang=="hu") LANG={"Happy birthday":"Boldog szülinapot","Name?":"Neve?","Bad name!":"Hibás név!","Already exists!":"Már van ilyen!","Setup":"Beállítások","Start!":"Start!","Load":"Betölt","Save":"Lement","Reset":"Újrakezd","Tutorials":"Példák",'forward':"Előre",'backward':"Hátra",'left':"Balra fordul",'right':"Jobbra fordul",'pendown':"Farkinca le",'penup':"Farkinca fel",'color':"Szín",'text':"Szöveg",'let':"Értékadás",'call':"Eljárás hívás",'if':"Elágazás",'repeat':"Ismétlés",'question':"Kérdés",'rand':"Véletlen",'alert':"Figyelmeztetés",'debug':"Hibakeresés","Add function":"Új eljárás","Delete function":"Eljárás törlése","Are you sure?":"Biztos vagy benne?","Variable":"Doboz","Prompt":"Kérdés","Expression":"Érték","pixels":"képpont","Default":"Alapért","Draw turtle":"Mutasd a teknőst","Debug execution":"Mutasd az utasításokat","Depth?":"Szintek száma?","How old are you?":"Hány éves vagy?","snowflake":"hópehely","wandering":"bóklászó","plant":"virág","curly":"íves","triangle":"háromszög","bdaycake":"torta","Empty expression":"Üres kifejezés","No such variable":"Nincs ilyen változó","Missing expression":"Hiányzó kifejezés","Unknown keyword":"Ismeretlen kulcsszó","Missing argument":"Hiányzó paraméter","Bad variable":"Hibás változónév","Unknown function":"Ismeretlen eljárás","Arguments mismatch":"Eltérő paraméterszám","Unknown command":"Ismeretlen parancs"};
+if(currentLang=="de") LANG={"Happy birthday":"Alles Gute zum Geburtstag","Name?":"Name?","Bad name!":"Schlechter Name!","Already exists!":"Ist bereits vorhanden!","Setup":"Konfiguration","Start!":"Anfang!","Load":"Einladen","Save":"Ersparen","Reset":"Neu setzen","Tutorials":"Lernprogrammen","forward":"vorantreiben","backward":"zurück","left":"links","right":"rechts","pendown":"hinlegen","penup":"hochheben","color":"kolorieren","text":"schreiben","let":"angeben","call":"erfolgen","if":"ob","repeat":"repetieren","question":"fragen","rand":"würfeln","alert":"warnen","debug":"debuggen","Add function":"Neue Funktion","Delete function":"Lösche Funktion","Are you sure?":"Bist du sicher?","Variable":"Variable","Prompt":"Prompt","Expression":"Ausdruck","pixels":"Pixel","Default":"Default","Draw turtle":"Schildkröte anzeigen","Debug execution":"Ablaufverfolgung ausführen","Depth?":"Tiefe?","How old are you?":"Wie alt bist du?","snowflake":"Schneeflocke","wandering":"wandern","plant":"Pflanze","curly":"lockig","triangle":"Dreieck","bdaycake":"Gtagskuchen","Empty expression":"Leerer Ausdruck","No such variable":"Keine solche Variable","Missing expression":"Fehlender Ausdruck","Unknown keyword":"Unbekanntes Schlüsselwort","Missing argument":"Fehlendes Argument","Bad variable":"Schlechte Variable","Unknown function":"Unbekannte Funktion","Arguments mismatch":"Argumente stimmel nicht","Unknown command":"Unbekannter Befehl"};
+if(currentLang=="fr") LANG={"Happy birthday":"Bon anniversaire","Name?":"Prénom?","Bad name!":"Mauvais nom!","Already exists!":"Existe déjá!","Setup":"Configuration","Start!":"Début!","Load":"Charge","Save":"Enregistrer","Reset":"Réinitialiser","Tutorials":"Tutoriels","forward":"envoyer","backward":"arriéré","left":"gauche","right":"droite","pendown":"soulever","penup":"relever","color":"colorizer","text":"écrire","let":"attributer","call":"invoquer","if":"si","repeat":"répéter","question":"question","rand":"randomiser","alert":"alerte","debug":"déboguer","Add function":"Ajouter une fonction","Delete function":"Supprimer la fonction","Are you sure?":"Étes-vous sűr?","Variable":"Variable","Prompt":"Sujet","Expression":"Expression","pixels":"pixels","Default":"Défaut","Draw turtle":"Montrer la tortue","Debug execution":"Suivre l'exécution","Depth?":"Profondeur?","How old are you?":"Quel áge avez-vous?","snowflake":"neige","wandering":"errant","plant":"plante","curly":"bouclé","triangle":"triangle","bdaycake":"gáteau","Empty expression":"Expression vide","No such variable":"Pas une telle variable","Missing expression":"Expression manquante","Unknown keyword":"Mot-clé inconnu","Missing argument":"Argument manquant","Bad variable":"Mauvaise variable","Unknown function":"Fonction inconnue","Arguments mismatch":"Incompatibilité des arguments","Unknown command":"Commande inconnnue"};
+if(currentLang=="el") LANG={"Happy birthday":"Χρόνια Πολλά","Name?":"Όνομα?","Bad name!":"Λάθος όνομα!","Already exists!":"Το όνομα υπάρχει ήδη!","Setup":"Ρύθμιση","Start!":"Εκκίνηση!","Load":"Άνοιγμα","Save":"Αποθήκευση","Reset":"Επαναφορά","Tutorials":"Παραδείγματα","forward":"μπροστά","backward":"πίσω","left":"αριστερά","right":"δεξιά","pendown":"πένα κάτω","penup":"πένα πάνω","color":"χρώμα","text":"κείμενο","let":"όρισε","call":"κλήση","if":"αν","repeat":"επανάληψη","question":"ερώτηση","rand":"τυχαίο","alert":"ειδοποίηση","debug":"αποσφαλμάτωση","Add function":"προσθήκη συνάρτησης","Delete function":"διαγραφή συνάρτησης","Are you sure?":"Είσαι σίγουρος?","Variable":"μεταβλητή","Prompt":"Κείμενο ερώτησης","Expression":"έκφραση","pixels":"πίξελς","Default":"προεπιλεγμένο","Draw turtle":"εμφάνιση χελώνας","Debug execution":"αποσφαλμάτωση εκτέλεσης","Depth?":"βάθος?","How old are you?":"πόσο χρονών είσαι?","snowflake":"χιονονιφάδα","wandering":"τυχαίο","plant":"φυτό","curly":"κατσαρό","triangle":"τρίγωνο","bdaycake":"τούρτα γενεθλίων","Empty expression":"κενή έκφραση","No such variable":"δεν βρέθηκε η μεταβλητή","Missing expression":"κενή έκφραση","Unknown keyword":"λείπει η λέξη κλειδί","Missing argument":"λείπει το όρισμα","Bad variable":"λάθος μεταβλητή","Unknown function":"άνγωστη συνάρτηση","Arguments mismatch":"ασύμβατες οδηγίες","Unknown command":"άγνωση εντολή"};
+
+// gemini end
+
 function L(t){return LANG[t]!=null&&LANG[t]!=undefined?LANG[t]:(t!=null?t.replace(/_/g,' '):'');}
 
 pe.jslogo = {
@@ -13,6 +27,9 @@ pe.jslogo = {
 	turtle:null,
 	drawturtle:true,
 	debuglog:false,
+	// gemini start
+	unlockTurns: new URLSearchParams(window.location.search).has('unlockTurns'), // 👈 Robust parameter check
+	// gemini end
 	dragging:null,
 	dragobj:null,
 	pen:true,
@@ -175,13 +192,25 @@ pe.jslogo = {
 			obj.parentNode.removeAttribute('title');
 		}
 		if(cmd=='pendown'||cmd=='penup') return;
+		// gemini start
+		if(!pe.jslogo.unlockTurns){
+			if(cmd=='left'||cmd=='right') {
+				pe.jslogo.args = obj.nextSibling;
+				// Force the value to 90 degrees if it's not already set
+				if(!pe.jslogo.args.innerHTML || pe.jslogo.args.innerHTML.trim() === '') {
+					pe.jslogo.args.innerHTML = '90';
+				}
+				return; // Exit early so no popup displays
+			}
+		}
+		// gemini end
 		pe.jslogo.args=obj.nextSibling;
 		val=pe.jslogo.args!=null&&pe.jslogo.args.innerHTML!=null?pe.jslogo.args.innerHTML.trim():''
 		document.getElementById('bgdiv').style.display='block';
 		inp.setAttribute('style','position:fixed;background:#ffffff;top:'+pos.top+';left:'+Math.round(pos.left+48)+'px;display:block;z-index:10;padding:5px;');
 		txt='<b>'+L(cmd)+'</b><br>';
 		if(cmd=='forward'||cmd=='backward') {
-			if(val=='') val=0;
+			if(val=='') val=100;
 			txt+='<input type="text" style="width:60px;" value="'+val+'" onchange="if(this.value<0)this.value=0;pe.jslogo.setargs(event,\''+cmd+'\',this.value.replace(/,/gi,\'\'));" onkeyup="if(this.value<0)this.value=0;pe.jslogo.setargs(event,\''+cmd+'\',this.value.replace(/,/gi,\'\'));">'+L('pixels');
 		} else
 		if(cmd=='left'||cmd=='right') {
@@ -265,8 +294,17 @@ pe.jslogo = {
 				func.insertBefore(obj,bef);
 			else
 				func.appendChild(obj);
-			if(args==null)
+			if(args==null) {
+				// gemini start
+				if(!pe.jslogo.unlockTurns && (cmd=='left' || cmd=='right')) {
+        			obj.getElementsByTagName('span')[0].innerHTML = '90';
+    			}
+				else if(cmd=='forward' || cmd=='backward') {
+        			obj.getElementsByTagName('span')[0].innerHTML = '100';
+    			}
+				// gemini end
 				pe.jslogo.getargs(obj.getElementsByTagName('IMG')[0]);
+			}
 		}
 	},
 
